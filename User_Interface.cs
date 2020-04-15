@@ -17,13 +17,13 @@ using System.Speech.Synthesis;
 
 namespace Attendance_System
 {
-    public partial class Form1 : Form
+    public partial class User_Interface : Form
     {
         private FilterInfoCollection cameras;
         private VideoCaptureDevice cam;
         SpeechSynthesizer speech;
 
-        public Form1()
+        public User_Interface()
         {  
             InitializeComponent();
             
